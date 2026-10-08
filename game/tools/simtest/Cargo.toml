@@ -1,0 +1,8 @@
+[package]
+name = "simtest"
+version = "0.1.0"
+edition = "2021"
+description = "Runs the Anime vs Anime battle simulation outside Roblox to catch bugs"
+
+[dependencies]
+mlua = { version = "0.10", features = ["luau", "vendored"] }

@@ -1,0 +1,11 @@
+{
+  "name": "MapTest",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$className": "Workspace",
+      "Lobby": { "$path": "../../src/Workspace/Lobby.model.json" },
+      "Arenas": { "$path": "../../src/Workspace/Arenas.model.json" }
+    }
+  }
+}
