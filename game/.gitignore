@@ -1,0 +1,4 @@
+tools/simtest/target/
+*.rbxl.lock
+*.rbxlx.lock
+__pycache__/

@@ -1,0 +1,62 @@
+{
+  "name": "AnimeVsAnime",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": { "$path": "src/ReplicatedStorage/Shared" }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": { "CameraMaxZoomDistance": 80 },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayerScripts"
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": { "StreamingEnabled": false },
+      "Lobby": { "$path": "src/Workspace/Lobby.model.json" },
+      "Arenas": { "$path": "src/Workspace/Arenas.model.json" }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Technology": "ShadowMap",
+        "ClockTime": 14.5,
+        "Brightness": 2.5,
+        "GlobalShadows": true,
+        "Ambient": [0.35, 0.35, 0.42],
+        "OutdoorAmbient": [0.55, 0.55, 0.62],
+        "EnvironmentDiffuseScale": 0.6,
+        "EnvironmentSpecularScale": 0.6
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": { "Density": 0.28, "Offset": 0.2, "Color": [0.78, 0.82, 0.95], "Decay": [0.55, 0.5, 0.75], "Glare": 0.2, "Haze": 1.2 }
+      },
+      "Bloom": {
+        "$className": "BloomEffect",
+        "$properties": { "Intensity": 0.6, "Size": 28, "Threshold": 1.4 }
+      },
+      "ColorCorrection": {
+        "$className": "ColorCorrectionEffect",
+        "$properties": { "Saturation": 0.18, "Contrast": 0.08, "Brightness": 0.02 }
+      },
+      "SunRays": {
+        "$className": "SunRaysEffect",
+        "$properties": { "Intensity": 0.06, "Spread": 0.6 }
+      }
+    },
+    "SoundService": { "$className": "SoundService" },
+    "Players": {
+      "$className": "Players",
+      "$properties": { "CharacterAutoLoads": true }
+    }
+  }
+}
